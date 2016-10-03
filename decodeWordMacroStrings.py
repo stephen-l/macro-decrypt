@@ -1,8 +1,7 @@
-__name__ = "decodeWordMacroStrings.py"
 __author__ = "stephen-l"
-__last_revision__ = "27/9/16 09:56"
+__date__ = "27/9/16 09:56"
 __version__ = "0.2"
-#Dependancy olevba.py
+
 
 def a(crypt, x, y):
     return decrypt(crypt, x, y, 1).replace('\n', '\n')[:-7].lower()
