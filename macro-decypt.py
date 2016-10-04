@@ -25,3 +25,6 @@ def left(s, amount):
 
 def right(s, amount):
     return s[-amount:]
+
+# example
+# print a("Berrtomttoel(ws.oe)/t.ee)OfW:w gSd.pi([Ng.mtj.Crtenoh.nechiTapmemle'-tWnc;/ Pn.RbaSGn$ty.SFlNSeiEepeIlimwim]D'eteped)pm/lNhOeee((d-atbPjicelt$schieeyt/x(:cOivp-s :o,n atmF;=.c)atbmbd$Nect)i", 433, 2031)
