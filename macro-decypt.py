@@ -4,13 +4,13 @@ __version__ = "0.2"
 
 
 def a(crypt, x, y):
-    return decrypt(crypt, x, y, 1).replace('\n', '\n')[:-7].lower()
+    return decrypt(crypt, x, y, 1)
 
 def b(x, y, crypt):
     return decrypt(crypt, x, y , 2)
 
 def d(x, y, crypt):
-    return decrypt(crypt, x, y, 1).replace('\n', '\n')[:-7].lower()
+    return decrypt(crypt, x, y, 1)
 
 def decrypt(inStr, x, y, div):
     intMod = y % len(inStr)
